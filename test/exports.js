@@ -2,7 +2,6 @@
 var assert = require('assert')
 var express = require('../');
 var request = require('supertest');
-var should = require('should');
 
 describe('exports', function(){
   it('should expose Router', function(){
@@ -75,13 +74,5 @@ describe('exports', function(){
     request(app)
     .get('/')
     .expect('bar', done);
-  })
-
-  it('should throw on old middlewares', function(){
-    var error;
-    try { express.bodyParser; } catch (e) { error = e; }
-    should(error).have.property('message');
-    error.message.should.containEql('middleware');
-    error.message.should.containEql('bodyParser');
   })
 })
