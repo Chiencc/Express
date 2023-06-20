@@ -8,7 +8,7 @@
   [![Windows Build][appveyor-image]][appveyor-url]
   [![Test Coverage][coveralls-image]][coveralls-url]
 
-```js
+```js```
 const express = require('express')
 const app = express()
 
