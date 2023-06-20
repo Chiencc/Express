@@ -2,7 +2,7 @@
   "scanSettings": {
     "configMode": "AUTO",
     "enableLicenseViolations": true,
-    "baseBranches": ["master"]
+    "baseBranches": ["master"],
     "projectToken": "567a7b97bd5b4006b2118e3153e2b83a29f376d015e24784908dd2af667acf36"
   },
   "checkRunSettings": {
