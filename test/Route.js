@@ -238,5 +238,6 @@ describe('Route', function(){
 
       route.dispatch(req, {}, done);
     });
-  })
+  }
+          )
 })
