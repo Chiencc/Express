@@ -3,7 +3,7 @@
     "configMode": "AUTO",
     "configExternalURL": "",
     "productToken":"5f70d9f27ef84e01ab1c5eaf58b2f9e9716972d38288481aa1b38bd6fa572b6c",
-    "projectToken": "6e57fc8c19714bcd89656bdd4e1abec3155ddb2f11dd4352bb672f821afbcf5e",
+    "projectToken": "",
     "baseBranches": []
   },
   "scanSettingsSAST": {
